@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Piket - UNESCO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>UNESCO</h1>
+            <nav>
+                <ul id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="jadwal_piket.html">Jadwal Piket</a></li>
+                    <li><a href="roster.html">Roster Pelajaran</a></li>
+                </ul>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="piket-section">
+            <h2>Jadwal Piket</h2>
+            <table class="piket-table">
+                <thead>
+                    <tr>
+                        <th>Hari</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Senin</td>
+                        <td>Enrico Yaurent</td>
+                        <td>Syahdan Ibnu Khalis</td>
+                        <td>Cynthia Devi Gotama</td>
+                        <td>Cheverly Vamiel Jennifer</td>
+                        <td>Lavinia Luk</td>
+                    </tr>
+                    <tr>
+                        <td>Selasa</td>
+                        <td>Steven</td>
+                        <td>Valentino Darma Tandiono</td>
+                        <td>Syahira Fitria Br. Hutapea</td>
+                        <td>Velisia Harsono</td>
+                        <td>Abel Liya Putri</td>
+                    </tr>
+                    <tr>
+                        <td>Rabu</td>
+                        <td>Erick Huang</td>
+                        <td>Bun Kalvin Wijaya</td>
+                        <td>Jesslyn Juliarso</td>
+                        <td>Kezya Laqueenta Tanner</td>
+                        <td>Ricvany Endi Khe</td>
+                    </tr>
+                    <tr>
+                        <td>Kamis</td>
+                        <td>Glenn Austyn</td>
+                        <td>Nico Alvando</td>
+                        <td>Plora Arika</td>
+                        <td>Nadia Keysia Alhamdana S</td>
+                        <td>Stevanie Clarence</td>
+                    </tr>
+                    <tr>
+                        <td>Jumat</td>
+                        <td>Heinz Pradhana Luviady</td>
+                        <td>Freanderlyn Wijaya</td>
+                        <td>Khalisya Khairani Pohan</td>
+                        <td>Florencia Linksy Natawijaya</td>
+                        <td>Fery Salim</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <script>
+        document.getElementById("mobile-menu").addEventListener("click", function() {
+            var navLinks = document.getElementById("nav-links");
+            navLinks.classList.toggle("active");
+        });
+    </script>
+</body>
+</html>
